@@ -1,0 +1,47 @@
+/*agregar fondo*/
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("pexels-scottwebb-1084510.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajusta la imagen al tamaño de la ventana */
+}
+/*centrar texto e imagen*/
+.container {
+    text-align: center;
+}
+/* css redes sociales*/
+.redes-sociales {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.redes-sociales a {
+    display: inline-block;
+    margin: 0 10px; /* Espacio entre íconos */
+    font-size: 24px;
+    color: #555;
+    transition: color 0.3s ease; /* Transición suave del color */
+}
+
+.redes-sociales a:hover {
+    color: #3b5998; /* Color al pasar el ratón */
+}
+
+/*ccs imagen de perfil*/
+img{
+    .perfil {
+        width: 150px; /* Ancho deseado de la foto de perfil */
+        height: 150px; /* Altura deseada de la foto de perfil */
+        overflow: hidden; /* Para recortar cualquier contenido que exceda las dimensiones especificadas */
+        border-radius: 50%; /* Hace que el borde sea circular */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    }
+    
+    .perfil img {
+        width: 100%; /* Ajusta la imagen al tamaño del contenedor */
+        height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
+        display: block; /* Evita espacios no deseados debajo de la imagen */
+    }
+    
+}
